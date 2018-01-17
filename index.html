@@ -1,279 +1,65 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   <title>小鹅杂殂</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="小鹅杂殂">
-<meta property="og:url" content="littleee.github.io/index.html">
-<meta property="og:site_name" content="小鹅杂殂">
-<meta property="og:locale" content="zh-Hans">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小鹅杂殂">
-  
-    <link rel="alternate" href="/atom.xml" title="小鹅杂殂" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo"></a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="littleee.github.io"></form>
-      </div>
-    </div>
+  <body>
+    <header class="header">
+  <div class="blog-title">
+    <a href="/" class="logo">小鹅杂殂</a>
   </div>
+  <nav class="navbar">
+    <ul class="menu">
+      
+        <li class="menu-item">
+          <a href="/" class="menu-item-link">Home</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/archives" class="menu-item-link">归档</a>
+        </li>
+      
+    </ul>
+  </nav>
 </header>
 
-      <div class="outer">
-        <section id="main">
+    <main class="main">
+      <section class="posts">
   
-    <article id="post-图片添加热点" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/01/16/图片添加热点/" class="article-date">
-  <time datetime="2018-01-16T03:53:19.000Z" itemprop="datePublished">2018-01-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+    <article class="post">
+      <div class="post-title">
+        <a class="post-title-link" href="/2018/01/16/images-map/">图片添加热点</a>
+      </div>
+      <div class="post-content">
+        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">date: <span class="number">2018</span><span class="number">-01</span><span class="number">-16</span> <span class="number">11</span>:<span class="number">53</span>:<span class="number">19</span></span><br><span class="line">    &lt;!DOCTYPE html&gt;</span><br><span class="line">    &lt;html&gt;</span><br><span class="line">      &lt;head&gt;</span><br><span class="line">        &lt;title&gt;图片热点的设置&lt;<span class="regexp">/title&gt;</span></span><br><span class="line"><span class="regexp">        &lt;meta http-equiv="content-type" content="text/</span>html;charset=utf<span class="number">-8</span><span class="string">"/&gt;</span></span><br><span class="line"><span class="string">      &lt;/head&gt;</span></span><br><span class="line"><span class="string">      &lt;body&gt;</span></span><br><span class="line"><span class="string">      &lt;!--</span></span><br><span class="line"><span class="string">        img标签的usemap属性，将图像定义为客户端图像映射。</span></span><br><span class="line"><span class="string">        引用&lt;map&gt;中的id或name属性(由浏览器决定)，创建图像与映射之间的联系,所以我们需要同时向&lt;map&gt;添加id和name两个属性。</span></span><br><span class="line"><span class="string">      --&gt;</span></span><br><span class="line">        &lt;img src="image/picture.png" usemap="#planemap" alt="示例图片" /&gt;</span><br><span class="line">        &lt;map name=<span class="string">"planemap"</span> id=<span class="string">"planemap"</span>&gt;</span><br><span class="line">          &lt;area shape=<span class="string">"rectangle"</span> coords=<span class="string">"454,249,723,276"</span> href =<span class="string">"http://www.littleee.com"</span>/&gt;</span><br><span class="line">        &lt;<span class="regexp">/map&gt;</span></span><br><span class="line"><span class="regexp">      &lt;/</span>body&gt;</span><br><span class="line">    &lt;<span class="regexp">/html&gt;</span></span><br></pre></td></tr></table></figure>
+      </div>
+      <div class="post-meta">
+        <span class="post-time">2018-01-16</span>
+      </div>
+    </article>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/16/图片添加热点/">图片添加热点</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> &lt;!DOCTYPE html&gt;</span><br><span class="line"> &lt;html&gt;</span><br><span class="line">     &lt;head&gt;</span><br><span class="line">         &lt;title&gt;图片热点的设置&lt;/title&gt;</span><br><span class="line">         &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;/&gt;</span><br><span class="line">     &lt;/head&gt;</span><br><span class="line">     &lt;body&gt;</span><br><span class="line">        &lt;!--</span><br><span class="line">        img标签的usemap属性，将图像定义为客户端图像映射。</span><br><span class="line">        引用&lt;map&gt;中的id或name属性(由浏览器决定)，创建图像与映射之间的联系,所以我们需要同时向&lt;map&gt;添加id和name两个属性。</span><br><span class="line">        --&gt;</span><br><span class="line">        &lt;img src=&quot;image/picture.png&quot; usemap=&quot;#planemap&quot; alt=&quot;示例图片&quot; /&gt;</span><br><span class="line">        &lt;map name=&quot;planemap&quot; id=&quot;planemap&quot;&gt;</span><br><span class="line">            &lt;area shape=&quot;rectangle&quot; coords=&quot;454,249,723,276&quot; href =&quot;http://www.littleee.com&quot;/&gt;</span><br><span class="line">        &lt;/map&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<h4 id="map标签和area标签相关属性："><a href="#map标签和area标签相关属性：" class="headerlink" title="map标签和area标签相关属性："></a>map标签和area标签相关属性：</h4><p>area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。如果某个 area 标签中的坐标和其他区域发生了重叠，会优先采用最先出现的 area 标签。浏览器会忽略超过图像边界范围之外的坐标。   </p>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>shape</td>
-<td>default，rectangle(rect)，circle(circ)，polygon(poly)</td>
-<td>定义区域的形状，整块区域，矩形，圆形，多边形</td>
-</tr>
-<tr>
-<td>coords</td>
-<td></td>
-<td>定义可点击区域（对鼠标敏感的区域）的坐标。</td>
-</tr>
-<tr>
-<td>圆形</td>
-<td>shape=”circle”，coords=”x,y,z”</td>
-<td>这里的 x 和 y 定义了圆心的位置（”0,0” 是图像左上角的坐标），z 是以像素为单位的圆形半径。</td>
-</tr>
-<tr>
-<td>多边形</td>
-<td>shape=”polygon”，coords=”x1,y1,x2,y2,x3,y3,…”</td>
-<td>每一对 “x,y” 坐标都定义了多边形的一个顶点（”0,0” 是图像左上角的坐标）</td>
-</tr>
-<tr>
-<td>矩形</td>
-<td>shape=”rectangle”，coords=”x1,y1,x2,y2”</td>
-<td>第一个坐标是矩形的一个角(左上角)的顶点坐标，另一个坐标是对角(右下角)的坐标</td>
-</tr>
-<tr>
-<td>href</td>
-<td></td>
-<td>定义此区域的目标 URL</td>
-</tr>
-<tr>
-<td>nohref</td>
-<td></td>
-<td>定义该区域没有相关链接</td>
-</tr>
-<tr>
-<td>arget</td>
-<td>_blank ,_parent ,_self ,_top</td>
-<td>规定在何处打开 href 属性指定的目标 URL。</td>
-</tr>
-</tbody>
-</table>
-<p><strong>注意</strong><br>定义三角形至少需要三组坐标；高纬多边形则需要更多数量的顶点。多边形会自动封闭，因此在列表的结尾不需要重复第一个坐标来闭合整个区域。     </p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="littleee.github.io/2018/01/16/图片添加热点/" data-id="cjcigkvh60001eis6n8ix5ern" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/12/hello-world/" class="article-date">
-  <time datetime="2017-12-12T11:03:36.426Z" itemprop="datePublished">2017-12-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/12/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+    <article class="post">
+      <div class="post-title">
+        <a class="post-title-link" href="/2017/12/12/hello-world/">Hello World</a>
+      </div>
+      <div class="post-content">
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="littleee.github.io/2017/12/12/hello-world/" data-id="cjcigkvh20000eis6mdj4y57a" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/01/16/图片添加热点/">图片添加热点</a>
-          </li>
-        
-          <li>
-            <a href="/2017/12/12/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
       </div>
-      <footer id="footer">
+      <div class="post-meta">
+        <span class="post-time">2017-12-12</span>
+      </div>
+    </article>
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 littleee<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
+</section>
 
 
 
-  </div>
-</body>
+    </main>
+  </body>
 </html>
