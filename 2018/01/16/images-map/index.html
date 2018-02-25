@@ -4,22 +4,30 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   <title>小鹅杂俎</title>
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/lib/jquery.js"></script>
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <script src="/lib/bootstrap/js/bootstrap.js"></script>
 </head>
 
   <body>
     <header class="header">
   <div class="blog-title">
+    <img src="./logo.jpg" alt="logo">
     <a href="/" class="logo">小鹅杂俎</a>
   </div>
   <nav class="navbar">
     <ul class="menu">
       
         <li class="menu-item">
-          <a href="/" class="menu-item-link">Home</a>
+          <a href="/" class="menu-item-link">home</a>
         </li>
       
         <li class="menu-item">
-          <a href="/archives" class="menu-item-link">归档</a>
+          <a href="/about/" class="menu-item-link">about</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/archives/" class="menu-item-link">archives</a>
         </li>
       
     </ul>
@@ -27,17 +35,17 @@
 </header>
 
     <main class="main">
-      <article class="post">
-  <div class="post-title">
-    <h2 class="title">图片添加热点</h2>
-  </div>
-   <div class="post-meta">
-    <span class="post-time">2018-01-16</span>
-  </div>
-  <div class="post-content">
-    <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span> 图片1热点的设置 <span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span>   <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">    img标签的usemap属性，将图像定义为客户端图像映射。</span></span><br><span class="line"><span class="comment">    引用&lt;map&gt;中的id或name属性(由浏览器决定)，创建图像与映射之间的联系,所以我们需要同时向&lt;map&gt;添加id和name两个属性。</span></span><br><span class="line"><span class="comment">  --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"image/picture.png"</span> <span class="attr">usemap</span>=<span class="string">"#planemap"</span> <span class="attr">alt</span>=<span class="string">"示例图片"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">map</span> <span class="attr">name</span>=<span class="string">"planemap"</span> <span class="attr">id</span>=<span class="string">"planemap"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">area</span> <span class="attr">shape</span>=<span class="string">"rectangle"</span> <span class="attr">coords</span>=<span class="string">"454,249,723,276"</span> <span class="attr">href</span> =<span class="string">"http://www.littleee.com"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">map</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+      
+  <article class="post">
+    <div class="post-title">
+      <h2 class="title">图片添加热点</h2>
+    </div>
+     <div class="post-meta">
+      <span class="post-time">2018-01-16</span>
+    </div>
+    <div class="post-content">
+      <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span> 图片1热点的设置 <span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span>   <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8"</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">    img标签的usemap属性，将图像定义为客户端图像映射。</span></span><br><span class="line"><span class="comment">    引用&lt;map&gt;中的id或name属性(由浏览器决定)，创建图像与映射之间的联系,所以我们需要同时向&lt;map&gt;添加id和name两个属性。</span></span><br><span class="line"><span class="comment">  --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"image/picture.png"</span> <span class="attr">usemap</span>=<span class="string">"#planemap"</span> <span class="attr">alt</span>=<span class="string">"示例图片"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">map</span> <span class="attr">name</span>=<span class="string">"planemap"</span> <span class="attr">id</span>=<span class="string">"planemap"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">area</span> <span class="attr">shape</span>=<span class="string">"rectangle"</span> <span class="attr">coords</span>=<span class="string">"454,249,723,276"</span> <span class="attr">href</span> =<span class="string">"http://www.littleee.com"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">map</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>date: 2018-01-16 11:53:19</p>
 <h3 id="map标签和area标签相关属性："><a href="#map标签和area标签相关属性：" class="headerlink" title="map标签和area标签相关属性："></a>map标签和area标签相关属性：</h3><p>area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。如果某个 area 标签中的坐标和其他区域发生了重叠，会优先采用最先出现的 area 标签。浏览器会忽略超过图像边界范围之外的坐标。   </p>
 <table>
 <thead>
@@ -92,8 +100,9 @@
 </table>
 <p><strong>注意</strong><br>定义三角形至少需要三组坐标；高纬多边形则需要更多数量的顶点。多边形会自动封闭，因此在列表的结尾不需要重复第一个坐标来闭合整个区域。     </p>
 
-  </div>
-</article>
+    </div>
+  </article>
+
 
 
     </main>
