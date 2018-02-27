@@ -6,33 +6,102 @@
   <link rel="stylesheet" href="/css/style.css">
   <script src="/lib/jquery.js"></script>
   <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <script src="/js/common.js"></script>
   <script src="/lib/bootstrap/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 </head>
 
   <body>
     <header class="header">
-  <div class="blog-title">
-    <img src="./logo.jpg" alt="logo">
-    <a href="/" class="logo">小鹅杂俎</a>
-  </div>
-  <nav class="navbar">
-    <ul class="menu">
-      
-        <li class="menu-item">
-          <a href="/" class="menu-item-link">home</a>
-        </li>
-      
-        <li class="menu-item">
-          <a href="/about/" class="menu-item-link">about</a>
-        </li>
-      
-        <li class="menu-item">
-          <a href="/archives/" class="menu-item-link">archives</a>
-        </li>
-      
+  <div class="color-bar">
+    <ul>
+      <li class="bar1"></li>
+      <li class="bar2"></li>
+      <li class="bar3"></li>
+      <li class="bar4"></li>
+      <li class="bar5"></li>
+      <li class="bar6"></li>
     </ul>
-  </nav>
+  </div>
+  <div class="header-wrapper">
+    <div class="blog-title">
+      
+        <img class="logo" src="/images/logo.png" alt="logo">
+      
+      <a href="/" class="title">小鹅杂俎</a>
+    </div>
+    <nav class="navbar navbar-menu">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+        <ul class="menu menu-pc">
+          
+            <li class="menu-item">
+              <i class="fa fa-home"></i>
+              <a href="/" class="menu-item-link">home</a>
+            </li>
+          
+            <li class="menu-item">
+              <i class="fa fa-user"></i>
+              <a href="/about/" class="menu-item-link">about</a>
+            </li>
+          
+            <li class="menu-item">
+              <i class="fa fa-tags"></i>
+              <a href="/tags/" class="menu-item-link">标签</a>
+            </li>
+          
+            <li class="menu-item">
+              <i class="fa fa-file"></i>
+              <a href="/archives/" class="menu-item-link">archives</a>
+            </li>
+          
+            <li class="menu-item">
+              <i class="fa fa-code"></i>
+              <a href="https://github.com/littleee/" class="menu-item-link">github</a>
+            </li>
+          
+        </ul>
+    </nav>
+  </div>
 </header>
+<div class="collapse nav-collapse" style="position:fixed;top:47px;" id="bs-example-navbar-collapse-1">
+  <ul class="menu" style="list-style:none">
+    
+      <li class="menu-item">
+        <i class="fa fa-camera-retro"></i>
+        <a href="/ || home" class="menu-item-link">home</a>
+      </li>
+    
+      <li class="menu-item">
+        <i class="fa fa-camera-retro"></i>
+        <a href="/about/ || user" class="menu-item-link">about</a>
+      </li>
+    
+      <li class="menu-item">
+        <i class="fa fa-camera-retro"></i>
+        <a href="/tags/ || tags" class="menu-item-link">标签</a>
+      </li>
+    
+      <li class="menu-item">
+        <i class="fa fa-camera-retro"></i>
+        <a href="/archives/ || file" class="menu-item-link">archives</a>
+      </li>
+    
+      <li class="menu-item">
+        <i class="fa fa-camera-retro"></i>
+        <a href="https://github.com/littleee/ || code" class="menu-item-link">github</a>
+      </li>
+    
+  </ul>
+</div>
 
     <main class="main">
       
