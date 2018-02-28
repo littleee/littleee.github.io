@@ -33,7 +33,7 @@
     <nav class="navbar navbar-menu">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" id="nav-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -44,60 +44,50 @@
         <ul class="menu menu-pc">
           
             <li class="menu-item">
-              <i class="fa fa-home"></i>
-              <a href="/" class="menu-item-link">home</a>
+              <a href="/" class="menu-item-link"><i class="fa fa-home"></i><span>首页</span></a>
             </li>
           
             <li class="menu-item">
-              <i class="fa fa-user"></i>
-              <a href="/about/" class="menu-item-link">about</a>
+              <a href="/about/" class="menu-item-link"><i class="fa fa-user"></i><span>关于</span></a>
             </li>
           
             <li class="menu-item">
-              <i class="fa fa-tags"></i>
-              <a href="/tags/" class="menu-item-link">标签</a>
+              <a href="/tags/" class="menu-item-link"><i class="fa fa-tags"></i><span>标签</span></a>
             </li>
           
             <li class="menu-item">
-              <i class="fa fa-file"></i>
-              <a href="/archives/" class="menu-item-link">archives</a>
+              <a href="/archives/" class="menu-item-link"><i class="fa fa-file"></i><span>归档</span></a>
             </li>
           
             <li class="menu-item">
-              <i class="fa fa-code"></i>
-              <a href="https://github.com/littleee/" class="menu-item-link">github</a>
+              <a href="https://github.com/littleee/" class="menu-item-link"><i class="fa fa-github"></i><span>github</span></a>
             </li>
           
         </ul>
     </nav>
   </div>
 </header>
-<div class="collapse nav-collapse" style="position:fixed;top:47px;" id="bs-example-navbar-collapse-1">
-  <ul class="menu" style="list-style:none">
+<div class="collapse nav-collapse" style="position:fixed;top:59px;" id="bs-example-navbar-collapse-1">
+  <ul class="menu menu-mobile" style="list-style:none">
     
       <li class="menu-item">
-        <i class="fa fa-camera-retro"></i>
-        <a href="/ || home" class="menu-item-link">home</a>
+        <a href="/" class="menu-item-link"><i class="fa fa-home"></i><span>首页</span></a>
       </li>
     
       <li class="menu-item">
-        <i class="fa fa-camera-retro"></i>
-        <a href="/about/ || user" class="menu-item-link">about</a>
+        <a href="/about/" class="menu-item-link"><i class="fa fa-user"></i><span>关于</span></a>
       </li>
     
       <li class="menu-item">
-        <i class="fa fa-camera-retro"></i>
-        <a href="/tags/ || tags" class="menu-item-link">标签</a>
+        <a href="/tags/" class="menu-item-link"><i class="fa fa-tags"></i><span>标签</span></a>
       </li>
     
       <li class="menu-item">
-        <i class="fa fa-camera-retro"></i>
-        <a href="/archives/ || file" class="menu-item-link">archives</a>
+        <a href="/archives/" class="menu-item-link"><i class="fa fa-file"></i><span>归档</span></a>
       </li>
     
       <li class="menu-item">
-        <i class="fa fa-camera-retro"></i>
-        <a href="https://github.com/littleee/ || code" class="menu-item-link">github</a>
+        <a href="https://github.com/littleee/" class="menu-item-link"><i class="fa fa-github"></i><span>github</span></a>
       </li>
     
   </ul>
