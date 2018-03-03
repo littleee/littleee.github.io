@@ -8,7 +8,9 @@ h6 {
   color: #222;
 }
 html {
-  background-color: #aee2d9;
+  background-color: #e9fbf8;
+  background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #dbf5f1 0%, #9be4d8 100%);
+  background-image: radial-gradient(ellipse farthest-corner at 50% 0, #dbf5f1 0%, #9be4d8 100%);
 }
 body {
   background-color: #e9fbf8;
