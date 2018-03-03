@@ -10,10 +10,10 @@ $(function(){
       $('.nav-collapse').css('top','59px')
     }
   })
-
-    $(document).click(function(){
+    $(document).click(function(e){
        if($('.collapse').hasClass('in')){
-$('#nav-btn').trigger('click');
+         $('#nav-btn').trigger('click');
+         e.stopPropagation();
        }
     })
     $('.nav-collapse').click(function(e){

@@ -49,10 +49,12 @@ body {
   position: fixed;
   top: 0;
   height: 13px;
-  width: 100%;
+  width: 80%;
   transition: height 0.3s ease;
 }
 .header .color-bar ul {
+  width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 }
