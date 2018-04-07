@@ -54,7 +54,7 @@ body {
   margin: 10px 0;
 }
 .main .content .archive .archive_item {
-  font-size: 20px;
+  font-size: 17px;
   margin-left: 40px;
   margin-top: 5px;
 }
@@ -121,11 +121,12 @@ body {
 }
 @media (max-width: 991px) {
   .main .content .archive .year {
-    font-size: 26px;
+    font-size: 22px !important;
     margin-left: 40px;
   }
   .main .content .archive .archive_item {
     font-size: 14px;
+    margin-left: 30px;
   }
   .main .content .banner {
     height: 300px;
@@ -364,6 +365,7 @@ body {
 }
 .posts .post {
   position: relative;
+  line-height: 2 !important;
 }
 .posts .post:first-child {
   margin-top: 0;
@@ -374,31 +376,67 @@ body {
   margin-bottom: 20px;
 }
 .posts .post-title .post-title-link {
-  display: block;
+  display: inline-block;
   font-weight: bold;
   color: #ee1289;
   text-shadow: #efefef 1px 1px, #fff0f5 3px 3px;
   text-decoration: none;
-  font-size: 34px;
-  margin: 10px 0;
+  font-size: 26px;
+  margin: 10px 0 0;
 }
-.posts .post-title p {
+.posts .post-title .post-title-link i {
+  font-size: 16px;
+}
+.posts .post-title .post-category {
+  font-size: 14px;
+}
+.posts .post-title .post-tags p {
   border-radius: 3px;
   color: #fff;
-  padding: 3px 10px;
+  padding: 0 10px;
   display: inline-block;
   background-color: #22c3aa;
+  margin-bottom: 10px;
 }
 .posts .post-content a {
   color: #368ccb;
   text-decoration: none;
 }
 .posts .post-content p img {
-  width: 90%;
+  max-width: 90%;
   display: block;
   margin: 0 auto;
   height: auto;
   padding: 20px 0;
+}
+.posts .post-content .video-container {
+  width: 90%;
+  height: 45%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.posts .post-content .video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+.posts .post-content .post-gallery {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+}
+.posts .post-content .post-gallery .post-gallery-img {
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+}
+.posts .post-content .fancybox {
+  width: 33.333%;
+}
+.posts .post-content .fancybox img {
+  margin: 0 auto 25px;
+  box-sizing: border-box;
+  padding: 3px;
 }
 .posts .post-meta {
   width: 180px;
@@ -425,7 +463,7 @@ body {
   color: #ee2830;
   top: 50%;
   left: 50%;
-  margin-top: -6px;
+  margin-top: -13px;
   margin-left: -46px;
   font-size: 16px;
 }
@@ -434,7 +472,7 @@ body {
     margin-top: 10em;
   }
   .posts .post-title .post-title-link {
-    font-size: 28px;
+    font-size: 24px;
   }
   .posts .post .post-content h2 {
     font-size: 23px !important;
@@ -453,11 +491,36 @@ body {
     padding: 0;
   }
 }
+h1 {
+  font-size: 24px !important;
+}
 h2 {
-  font-size: 28px !important;
+  font-size: 22px !important;
 }
 h3 {
   font-size: 20px !important;
+}
+h4 {
+  font-size: 18px !important;
+}
+h5 {
+  font-size: 16px !important;
+}
+h6 {
+  font-size: 14px !important;
+}
+article .pullquote.left {
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+article .pullquote.right {
+  float: right;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+article blockquote p {
+  margin-bottom: 25px;
 }
 article h2.title {
   margin-bottom: 0.25em;
@@ -468,14 +531,20 @@ article h2.title {
 }
 article h3 {
   font-weight: bold;
-  margin: 0;
+  margin: 20px 0 10px;
 }
 article p {
   font-size: 14px;
+  margin: 0 0 25px;
+  line-height: 2;
 }
 article table {
+  width: 100%;
   border: 1px solid #eee;
   border-collapse: collapse;
+}
+article table .gutter pre {
+  background-color: #eff2f3;
 }
 article table th {
   padding: 8px;
@@ -616,7 +685,7 @@ pre .javascript .function {
 }
 .page-nav {
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   margin: 14px 0;
   width: 100%;
   position: relative;
@@ -708,7 +777,8 @@ pre .javascript .function {
 }
 @media (max-width: 480px) {
   .footer {
-    padding: 30px 10px;
+    padding: 15px 10px;
+    font-size: 14px;
   }
 }
 .tags .tags-title {
