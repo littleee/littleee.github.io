@@ -87,7 +87,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f66c6f8eee25b75cdcf5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "72fa14e6b25d48acd6b4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -11829,14 +11829,7 @@
 /* 21 */
 /***/ (function(module, exports) {
 
-	(function(document) {
-	  var fromValue = (function getURLParameter(name) {
-	    return encodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null
-	  })("from");
-	  if (fromValue) {
-	    document.cookie = "from=" + fromValue + ";Path=/" + "; Domain=itom.oneapm.com"
-	  }
-	})(document);
+	
 
 /***/ }),
 /* 22 */

@@ -1598,7 +1598,7 @@ header .mobile-navbar .nav-item a {
   }
 }
 footer {
-  background-color: #323232;
+  background-color: rgba(0, 6, 12, 0.7);
   overflow: hidden;
 }
 footer .contents {
@@ -1656,7 +1656,10 @@ footer .info .contact li {
   float: left;
   margin-right: 30px;
 }
-footer .info .contact li img {
+footer .info .contact li a {
+  display: block;
+}
+footer .info .contact li a img {
   width: 100%;
 }
 footer .help,
@@ -1683,6 +1686,21 @@ footer .about {
   footer .contents .help,
   footer .contents .about {
     flex: 1;
+  }
+  footer .info .contact li {
+    width: 20%;
+    margin-right: 5%;
+    height: auto;
+  }
+}
+@media (max-width: 320px) {
+  footer .contents .help,
+  footer .contents .about {
+    flex: 1;
+  }
+  footer .info .contact li {
+    width: 30%;
+    margin-right: 10s%;
   }
 }
 html,
@@ -1908,7 +1926,7 @@ section.roadmap .year-list .num {
 }
 section.roadmap .year-list .contents {
   max-width: 660px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   font-family: Microsoft Yahei;
   font-size: 14px;
 }
@@ -1929,14 +1947,17 @@ section.team .head {
   margin-top: 90px;
 }
 section.team .head .head-wrapper {
-  width: 140px;
-  height: 140px;
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  max-height: 140px;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   margin: 0 auto;
 }
 section.team .head .head-wrapper img {
+  display: block;
   width: 100%;
 }
 section.team .head .name {
@@ -1992,9 +2013,6 @@ section.partners .partners-wrapper .partners-logo .yfy {
   }
 }
 @media (max-width: 991px) {
-  section.banner-contents {
-    text-align: center;
-  }
   section.banner-contents .btn {
     margin-top: 20px;
   }
@@ -2048,6 +2066,10 @@ section.partners .partners-wrapper .partners-logo .yfy {
     width: 50%;
     float: left;
   }
+  .col-xxs-4 {
+    width: 33.33333%;
+    float: left;
+  }
   section.banner-contents h1 {
     font-size: 32px;
   }
@@ -2057,6 +2079,9 @@ section.partners .partners-wrapper .partners-logo .yfy {
   }
   section.team .head {
     margin-top: 40px;
+  }
+  section.team .head .name {
+    font-size: 16px;
   }
   section.team h2 {
     font-size: 36px;
@@ -2084,5 +2109,17 @@ section.partners .partners-wrapper .partners-logo .yfy {
   }
   section.partners .partners-wrapper img {
     height: 60px;
+  }
+}
+@media (max-width: 320px) {
+  .tab-btn .line {
+    left: 40px;
+  }
+  section.banner-contents h1 {
+    font-size: 30px;
+  }
+  section.banner-contents .crowd .countdown p {
+    width: 50px;
+    font-size: 32px;
   }
 }
