@@ -97,27 +97,86 @@ if (navigator.serviceWorker) {
     <main class="main">
       <div class="content">
         
-<div class="archive">
-  
-  
-    
-    
-      <h2 class="year">2018</h2>
+  <article class="post">
+    <div class="post-title">
+      <h2 class="title">图片添加热点</h2>
+       
+    </div>
+     <div class="post-meta">
+      <span class="post-time">2018-11-06</span>
+    </div>
+    <div class="post-content">
+      <p>date: 2018-01-16 11:53:19</p>
+<h3 id="map标签和area标签相关属性："><a href="#map标签和area标签相关属性：" class="headerlink" title="map标签和area标签相关属性："></a>map标签和area标签相关属性：</h3><p>area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。如果某个 area 标签中的坐标和其他区域发生了重叠，会优先采用最先出现的 area 标签。浏览器会忽略超过图像边界范围之外的坐标。   </p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>shape</td>
+<td>default，rectangle(rect)，circle(circ)，polygon(poly)</td>
+<td>定义区域的形状，整块区域，矩形，圆形，多边形</td>
+</tr>
+<tr>
+<td>coords</td>
+<td></td>
+<td>定义可点击区域（对鼠标敏感的区域）的坐标。</td>
+</tr>
+<tr>
+<td>圆形</td>
+<td>shape=”circle”，coords=”x,y,z”</td>
+<td>这里的 x 和 y 定义了圆心的位置（”0,0” 是图像左上角的坐标），z 是以像素为单位的圆形半径。</td>
+</tr>
+<tr>
+<td>多边形</td>
+<td>shape=”polygon”，coords=”x1,y1,x2,y2,x3,y3,…”</td>
+<td>每一对 “x,y” 坐标都定义了多边形的一个顶点（”0,0” 是图像左上角的坐标）</td>
+</tr>
+<tr>
+<td>矩形</td>
+<td>shape=”rectangle”，coords=”x1,y1,x2,y2”</td>
+<td>第一个坐标是矩形的一个角(左上角)的顶点坐标，另一个坐标是对角(右下角)的坐标</td>
+</tr>
+<tr>
+<td>href</td>
+<td></td>
+<td>定义此区域的目标 URL</td>
+</tr>
+<tr>
+<td>nohref</td>
+<td></td>
+<td>定义该区域没有相关链接</td>
+</tr>
+<tr>
+<td>arget</td>
+<td>_blank ,_parent ,_self ,_top</td>
+<td>规定在何处打开 href 属性指定的目标 URL。</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意</strong><br>定义三角形至少需要三组坐标；高纬多边形则需要更多数量的顶点。多边形会自动封闭，因此在列表的结尾不需要重复第一个坐标来闭合整个区域。     </p>
+    </div>
+  </article>
+  <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
       
-    
-    <div class="archive_item">
-      <span class="date">11-06</span>
-      <a class="title" href="/2018/11/06/images-map/">图片添加热点</a>
+        <a href="/2018/11/06/hello-world/" rel="next" title="Hello World">
+          <i class="fa fa-chevron-left"></i> Hello World
+        </a>
+      
     </div>
-  
+
+    <span class="post-nav-divider"></span>
+
+    <div class="post-nav-prev post-nav-item">
     
-    
-    <div class="archive_item">
-      <span class="date">11-06</span>
-      <a class="title" href="/2018/11/06/hello-world/">Hello World</a>
     </div>
-  
-</div>
+  </div>
 
 
 
